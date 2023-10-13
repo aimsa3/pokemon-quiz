@@ -54,6 +54,10 @@
     background-color: #fedf32;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 button, input {
     font-family: 'Jost', sans-serif;
     font-size: 16px;
