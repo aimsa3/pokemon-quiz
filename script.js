@@ -60,6 +60,7 @@ function randomPokemon() {
 function checkGuess(guess) {
     results.textContent = '';
     guess = document.querySelector('#guess').value.toLowerCase();
+    guess = guess.trim();
     const guessing = document.querySelector('#guessing');
 
     console.log(guess.toLowerCase());
