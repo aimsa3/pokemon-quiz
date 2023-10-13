@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Jost', sans-serif;
+    padding: 20px;
+}
+
+.title {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    max-width: 400px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid red; */
+    margin: 15px;
+    padding: 0px;
+    max-width: 350px;
+    justify-content: center;
+}
+
+.nametag {
+    /* background-color: #eff3ff; */
+    width: 100%;
+    text-align: center;
+    /* border-top: 3px solid slategray;
+    border-right: 3px solid slategray;
+    border-left: 3px solid slategray;
+    border-bottom: 1px solid slategray; */
+}
+
+.guessing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    /* border: 3px solid purple; */
+}
+
+.guessing button {
+    border: 3px solid #2a75bb;
+    border-radius: 5px;
+    background-color: #fedf32;
+}
+
+button, input {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+#generate {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #2a75bb;
+    border-radius: 5px;
+    background-color: #fedf32;
+    font-weight: bold;
+}
+
+.pokemon .img {
+    /* border-left: 3px solid slategray;
+    border-right: 3px solid slategray;
+    border-bottom: 3px solid slategray; */
+    /* background-color: #eff3ff; */
+    max-width: 350px;
+}
+
+img {
+    max-width: 350px;
+}
+
+#input {
+    /* border: 5px solid mediumseagreen; */
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+}
+
+#input input {
+    width: 70%;
+}
+
+#input button {
+    width: 30%;
+    border: 3px solid #2a75bb;
+    border-radius: 5px;
+    background-color: #fedf32;
+}
