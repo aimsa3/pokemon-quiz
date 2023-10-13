@@ -92,3 +92,5 @@ function revealAnswer() {
     giveUpBtn.remove();
     results.remove();
 }
+
+randomPokemon();
